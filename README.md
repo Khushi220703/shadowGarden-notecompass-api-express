@@ -1,2 +1,2 @@
-# shadowGarden-notecompass-api-express
-Mongo DB base api
+# notecompass-api-express
+This is CRUD API made using MongoDB and Express
