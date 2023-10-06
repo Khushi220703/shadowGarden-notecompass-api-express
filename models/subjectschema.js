@@ -1,9 +1,10 @@
-const mongoose =  require("mongoose");
+const mongoose = require("mongoose");
 
-const subjectsSchema = new mongoose.Schema({
+const SubjectsSchema = new mongoose.Schema({
     subjectName: {type:String,required:true},
-    courseName: {type:String,required:true},
-    semesterNumber : {type:Number,required:true},
+    courseName : {type:String,required:true},
+    semesterNumber : {type:Number,required:true},// This is the particular semester number of that subject.
 });
 
-module.exports = mongoose.model{"Subjects",subjectsSchema};
+
+module.exports = mongoose.model("Subjects",SubjectsSchema); 
